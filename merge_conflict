@@ -1,0 +1,16 @@
+ 1046  g pull
+ 1047  g checkout new_branch
+ 1048  g checkout develop
+ 1049  g branch
+ 1050  g merge new_branch
+ 1051  g status
+ 1052  g push
+ 1053  g merge new_branch_cloned
+ 1054  g status
+ 1055  g status
+ 1056  g add test_file1
+ 1057  g status
+ 1058  g commit -m 'Resolve merge conflict'
+ 1059  g status
+ 1060  g push
+ 1061  history
